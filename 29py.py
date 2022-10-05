@@ -1,3 +1,3 @@
-n = input()
-n = ord(n)
-print(n)
+a = input()
+a = int(a,16)
+print("%o"%a)
