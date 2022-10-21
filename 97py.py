@@ -8,8 +8,7 @@ for i in range(n):
             board[x-1][y-1+j]=1
     else:
         for j in range(l):
-            board[x-1+j][y-1]=1
-            
+            board[x-1+j][y-1]=1           
 for i in range(h):
     for j in range(w):
         print(board[i][j],end=' ')
